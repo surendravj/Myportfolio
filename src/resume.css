@@ -1,0 +1,33 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.A{
+    width: 100%;
+}
+
+.B{
+    max-width:1400px;
+}
+
+.C{
+    width:90%;
+}
+
+.D{
+    width:80%;
+}
+.E{
+    width:75%;
+}
+.F{
+    width:80%;
+}
+.G{
+    height:24px;width:80%
+}
+.H{
+    height:24px;width:55%
+}
+
+.K{
+    height:24px;width:50%
+}
