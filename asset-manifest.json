@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Myportfolio/static/css/main.3370ef35.chunk.css",
+    "main.js": "/Myportfolio/static/js/main.05e0d64b.chunk.js",
+    "main.js.map": "/Myportfolio/static/js/main.05e0d64b.chunk.js.map",
+    "runtime-main.js": "/Myportfolio/static/js/runtime-main.d7842963.js",
+    "runtime-main.js.map": "/Myportfolio/static/js/runtime-main.d7842963.js.map",
+    "static/js/2.a2366cee.chunk.js": "/Myportfolio/static/js/2.a2366cee.chunk.js",
+    "static/js/2.a2366cee.chunk.js.map": "/Myportfolio/static/js/2.a2366cee.chunk.js.map",
+    "index.html": "/Myportfolio/index.html",
+    "precache-manifest.ad4688ad81969d313c35bfcc19688909.js": "/Myportfolio/precache-manifest.ad4688ad81969d313c35bfcc19688909.js",
+    "service-worker.js": "/Myportfolio/service-worker.js",
+    "static/css/main.3370ef35.chunk.css.map": "/Myportfolio/static/css/main.3370ef35.chunk.css.map",
+    "static/js/2.a2366cee.chunk.js.LICENSE.txt": "/Myportfolio/static/js/2.a2366cee.chunk.js.LICENSE.txt",
+    "static/media/Administrator.png": "/Myportfolio/static/media/Administrator.d83c531a.png",
+    "static/media/index.css": "/Myportfolio/static/media/Roboto-MediumItalic.cf23e1bb.ttf",
+    "static/media/about-us.png": "/Myportfolio/static/media/about-us.52bec8f6.png",
+    "static/media/banner-image.png": "/Myportfolio/static/media/banner-image.50953027.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7842963.js",
+    "static/js/2.a2366cee.chunk.js",
+    "static/css/main.3370ef35.chunk.css",
+    "static/js/main.05e0d64b.chunk.js"
+  ]
+}
