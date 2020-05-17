@@ -1,40 +1,44 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import bannerImage from "./assets/images/banner-image.png";
 import bannerImage2 from "./assets/images/about-us.png";
 import './index.css';
+import Service from "./components/Service";
+import Skill from './components/Skill';
+
 
 function App() {
   const banner = () => {
-    return (<div className="container mt-5">
-      <div className="row">
-        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 py-5" data-aos="fade-right">
-          <h3 className="title-text hey">Hey<span className="simple_line">________________@</span></h3>
-          <h1 className="title-text text-uppercase name">I am <span className="myname">Surendra</span></h1>
-          <h4 className="title-text text-uppercase freelancer mt-2">Freelance Developer</h4>
-          <div className="mt-4">
-            <button type="button" className="mr-2 text-uppercase pressDown ">hire
+    return (
+      <div className="container mt-5 py-5 text-center" data-aos="zoom-in">
+        <div className="row">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5 py-5">
+            <h3 className="title-text hey">Hey<span className="simple_line">________________@</span></h3>
+            <h1 className="title-text text-uppercase name">I am <span className="myname">Surendra</span></h1>
+            <h4 className="title-text text-uppercase freelancer mt-2">Freelance Developer</h4>
+            <div className="mt-4">
+              <button type="button" className="mr-2 text-uppercase pressDown ">hire
                                     me</button>
-            <button type="button" className="btn btn-outline-info text-uppercase buttonLeft">Get cv</button>
+              <button type="button" className="btn btn-outline-info text-uppercase buttonLeft">Get cv</button>
+            </div>
+          </div>
+          <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-4">
+            <img src={bannerImage} alt="person" className="img-fluid" />
           </div>
         </div>
-        <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-md-4" data-aos="fade-right">
-          <img src={bannerImage} alt="person" className="img-fluid" />
-        </div>
-      </div>
-    </div>)
+      </div>)
   }
 
   const secondBanner = () => {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 colxs-12 " data-aos="fade-right">
+          <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 " data-aos="zoom-in">
             <img src={bannerImage2} alt="about" className="img-fluid"></img>
           </div>
 
-          <div className="col-lg-6 px-2 col-md-6 col-sm-12 col-xs-12 mt-1 text-center" data-aos="fade-left">
+          <div className="col-lg-6 px-2 col-md-6 col-sm-12 col-xs-12 mt-1 text-center" data-aos="zoom-in">
             <h2 className="text-uppercase py-3 px-5 head">
               <span>Let me </span>
               <span>introduce </span>
@@ -51,9 +55,9 @@ function App() {
                 </br>
               </p>
             </div>
-            <button type="button" className="btn btn-outline-dark btn-cv text-uppercase mt-2 mb-2">
+            <button type="button" className="btn btn-outline-dark btn-cv text-uppercase mt-3 mb-2">
               <Link to="/resume" className="btn-cv">Look my cv</Link>
-              </button>
+            </button>
           </div>
         </div>
       </div>);
@@ -62,14 +66,17 @@ function App() {
 
 
   return (
-    <div>
+    <div className="container">
       <Navbar />
       {banner()}
       <hr></hr>
       {secondBanner()}
       <hr></hr>
+      <Skill/>
+      <hr></hr>
+      <Service/>
     </div>
-  ); 
+  );
 }
 
 export default App;

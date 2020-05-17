@@ -69,7 +69,7 @@ code {
 
 .name{
   font-family:monospace;
-  font-size:5rem;
+  font-size:4em;
 }
 .myname{
   text-decoration:underline;
@@ -112,4 +112,49 @@ color: #071a52;
 .btn-cv{
   background-color:#071a52;
   color: #fff;
+} 
+ .service{
+  background-color: #e2f3f5;
+} 
+
+.service:hover{
+  box-shadow:
+  0 4.5px 3.6px rgba(0, 0, 0, 0.08),
+  0 12.5px 10px rgba(0, 0, 0, 0.115),
+  0 30.1px 24.1px rgba(0, 0, 0, 0.15),
+  0 100px 80px rgba(0, 0, 0, 0.23)
+;
+transition-delay: 0.5ms;
+}
+
+
+.service-2:hover{
+  box-shadow:
+  0 4.5px 3.6px rgba(0, 0, 0, 0.08),
+  0 12.5px 10px rgba(0, 0, 0, 0.115),
+  0 30.1px 24.1px rgba(0, 0, 0, 0.15),
+  0 100px 80px rgba(0, 0, 0, 0.23)
+;
+transition-delay: 0.5ms;
+}
+
+.lead{
+  font-family:"RobotoMedium";
+}
+
+.service-head{
+  font-family:"RobotoItalic";
+}
+.service-2{
+  background-color:#dee1ec;
+}
+
+.skill{
+  border: 1px solid #303a52;
+  background-color: #303a52;
+  border-radius:2rem;
+  color: #fff;
+}
+.skillDiv{
+  margin:0px auto;
 }

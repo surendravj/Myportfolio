@@ -10,7 +10,7 @@ const Navbar = ({ history }) => {
         return ({ color: "#ffffff" })
     }
     return (
-        <div>
+        <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top nav-color">
                 <button className="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
