@@ -6,7 +6,7 @@ import bannerImage2 from "./assets/images/about-us.png";
 import './index.css';
 import Service from "./components/Service";
 import Skill from './components/Skill';
-
+import Contact from "./components/Contact";
 
 function App() {
   const banner = () => {
@@ -72,9 +72,11 @@ function App() {
       <hr></hr>
       {secondBanner()}
       <hr></hr>
-      <Skill/>
+      <Skill />
       <hr></hr>
-      <Service/>
+      <Service />
+      <hr></hr>
+      <Contact />
     </div>
   );
 }
