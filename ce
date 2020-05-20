@@ -1,0 +1,35 @@
+[33mcommit 9f0dbe36cfb45f9202ee0df3bf607067c9261f6c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Mon May 18 21:08:37 2020 +0530
+
+    Added contact and service
+
+[33mcommit b8a0a153c75f619ed71340ef9b929a914a9f8f27[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Sun May 17 18:20:40 2020 +0530
+
+    added stack and service section
+
+[33mcommit 883f3d13368ba8193a7d598683cd925599c28a28[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Sat May 16 18:40:52 2020 +0530
+
+    deployed
+
+[33mcommit b54325cf1c88e5edd0da76805f1b71d2acef66fd[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Sat May 16 18:21:58 2020 +0530
+
+    intial commit
+
+[33mcommit 59563e1eb84ab45cd8edb188730b9040397d9c56[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Sat May 16 17:28:54 2020 +0530
+
+    intial commit
+
+[33mcommit c2c05d9b50053beddf1a04e32ddd118c3a659808[m
+Author: surendra <vadaparthysurendra@gmail.com>
+Date:   Fri May 15 17:07:26 2020 +0530
+
+    Initialize project using Create React App

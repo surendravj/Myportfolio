@@ -40,12 +40,15 @@ const Contact = () => {
             setbuttonName('Submitting.....')
             saveCommentToDb({ name, comment })
                 .then(data => {
-                    setvalues({ ...values, name: "", comment: "" })
-                    setbuttonName("Thank you for your feedback :)");
+                    if (data.error) {
+                        setbuttonName("All fields are required");
+                        setbuttonStatus(3);
+                    }
+                    setbuttonName(`Thank you ${name} for your feedback :)`);
                     setbuttonStatus(2)
+                    setvalues({ ...values, name: "", comment: "" })
                 })
                 .catch((err) => {
-                    console.log(err);
                     setbuttonName("Something went wrong try again after sometime");
                     setbuttonStatus(3);
                 });

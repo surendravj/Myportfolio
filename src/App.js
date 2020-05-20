@@ -3,12 +3,16 @@ import Navbar from "./components/Navbar";
 import { Link } from "react-router-dom";
 import bannerImage from "./assets/images/banner-image.png";
 import bannerImage2 from "./assets/images/about-us.png";
-import './index.css';
 import Service from "./components/Service";
 import Skill from './components/Skill';
 import Contact from "./components/Contact";
+import Testimonal from './components/Testimonal';
+import logo from "./assets/images/github-logo.png";
+import './index.css';
 
 function App() {
+
+
   const banner = () => {
     return (
       <div className="container mt-5 py-5 text-center" data-aos="zoom-in">
@@ -50,7 +54,7 @@ function App() {
                             </p>
               <p className="para">
                 I am in persuing my final year Btech course in one the finest reputed college in Hyderbad. I am doing my major in Electronics and instrumention engineering.
-                Most importantly i am foody and traveller too....<br></br>
+                Most importantly i am foody and traveller too .<br></br>
                 Coming to my technical background i am fullstack web developer and native mobile app developer also <br>
                 </br>
               </p>
@@ -64,19 +68,37 @@ function App() {
   }
 
 
+  const footer = () => {
+    return (
+      <footer className="page-footer footer text-center text-md-left mt-2 py-2">
+        <div className="container-fluid text-center">
+          <a href="https://github.com/surendravj" className="btn btn-outline-warning" rel="noopener noreferrer" target="_blank">
+            <span className="mr-1">
+              <img className="mr-1" src={logo} alt="avatar"></img>
+            </span>
+              Follow me on Github</a>
+        </div>
+      </footer>
+    )
+  }
 
   return (
-    <div className="container">
-      <Navbar />
-      {banner()}
-      <hr></hr>
-      {secondBanner()}
-      <hr></hr>
-      <Skill />
-      <hr></hr>
-      <Service />
-      <hr></hr>
-      <Contact />
+    <div>
+      <div className="container">
+        <Navbar />
+        {banner()}
+        <hr></hr>
+        {secondBanner()}
+        <hr></hr>
+        <Skill />
+        <hr></hr>
+        <Service />
+        <hr></hr>
+        <Testimonal />
+        <hr></hr>
+        <Contact />
+      </div>
+      {footer()}
     </div>
   );
 }

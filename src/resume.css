@@ -31,3 +31,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 .K{
     height:24px;width:50%
 }
+
+.o{
+    width:100%;
+}
+
+.resumeHead{
+    text-decoration: underline;
+}

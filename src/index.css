@@ -158,3 +158,12 @@ transition-delay: 0.5ms;
 .skillDiv{
   margin:0px auto;
 }
+
+.test{
+  overflow-y:scroll;
+  max-height:300px;
+}
+
+.footer{
+  background-color: #071a52;
+}

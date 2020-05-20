@@ -27,10 +27,6 @@ const Navbar = ({ history }) => {
                                 My-resume
                             </Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/contact" style={changeColor(history, "/contact")} className="nav-link">
-                                Contact-me </Link>
-                        </li>
                     </ul>
                 </div>
             </nav>
