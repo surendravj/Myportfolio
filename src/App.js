@@ -53,10 +53,18 @@ function App() {
                 Hey you ! I am SURENDRA VADAPARTHY a freelance developer who is computer & tech freak
                             </p>
               <p className="para">
-                I am in pursuing my final year Btech course in one the finest reputed college in Hyderbad.My major in Electronics and Instrumention Engineering.
-                Most importantly i am foody and traveller too .<br></br>
-                Coming to my technical background i am fullstack web developer and native mobile app developer also <br>
-                </br>
+                Efficient Engineer with an experience in creating mobile & web applications
+                using Javascript & Flutter SDK. I like learning about other platforms such as backend and Android as well
+                because it gives a wider view on problems that we solve for the customers.
+                I focus on a high quality code ensured by following TDD approach.
+                I really enjoy working in an oraganized environment.
+                I speak Telugu,English,basic Hindi as well
+                As a technical person I pay attention to details.
+
+                I like creating my own applications and utilities in a spare time because I believe
+                it is important to keep developing skills after hours and to share the results with a community.
+                I post the updates and projects on my <a href="https://github.com/surendravj" rel="noopener noreferrer" target="_blank">Github </a> 
+                  account and we can also follow me up on <a href="https://www.instagram.com/surendra_vadaparthy/" rel="noopener noreferrer" target="_blank">Instagram</a>.
               </p>
             </div>
             <button type="button" className="btn btn-outline-dark btn-cv text-uppercase mt-3 mb-2">

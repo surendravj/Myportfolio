@@ -56,7 +56,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="container my-5 py-5 z-depth-1">
+        <div className="container my-5 py-5 z-depth-1" data-aos="zoom-in">
             <section className=" px-md-5 mx-md-5 dark-grey-text">
                 <h3 className="font-weight-bold mb-4 head text-center">Contact & feedback here</h3>
                 <div className="row">
