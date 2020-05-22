@@ -17,6 +17,9 @@ const Skill = () => {
             })
         )
     }
+
+
+    
     return (
         <div className="container text-center" data-aos="zoom-in">
             <h3 className="service-head">My tech stack</h3>

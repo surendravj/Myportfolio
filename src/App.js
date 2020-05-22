@@ -53,7 +53,7 @@ function App() {
                 Hey you ! I am SURENDRA VADAPARTHY a freelance developer who is computer & tech freak
                             </p>
               <p className="para">
-                I am in persuing my final year Btech course in one the finest reputed college in Hyderbad. I am doing my major in Electronics and instrumention engineering.
+                I am in pursuing my final year Btech course in one the finest reputed college in Hyderbad.My major in Electronics and Instrumention Engineering.
                 Most importantly i am foody and traveller too .<br></br>
                 Coming to my technical background i am fullstack web developer and native mobile app developer also <br>
                 </br>

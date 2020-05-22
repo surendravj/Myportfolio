@@ -9,6 +9,8 @@ const Navbar = ({ history }) => {
         }
         return ({ color: "#ffffff" })
     }
+
+    
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top nav-color">
