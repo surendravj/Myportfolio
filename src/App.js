@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import bannerImage from "./assets/images/banner-image.png";
 import bannerImage2 from "./assets/images/about-us.png";
 import Service from "./components/Service";
@@ -24,7 +24,12 @@ function App() {
             <div className="mt-4">
               <button type="button" className="mr-2 text-uppercase pressDown ">hire
                                     me</button>
-              <button type="button" className="btn btn-outline-info text-uppercase buttonLeft">Get cv</button>
+              <Link to="/myrepos" type="button" className="btn btn-dark pressDown text-center text-uppercase">
+                <span className="mr-1 text-center">
+                  <img className="mr-1" src={logo} alt="avatar"></img>
+                </span>
+                Github Repo
+              </Link>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-4">
@@ -63,7 +68,7 @@ function App() {
 
                 I like creating my own applications and utilities in a spare time because I believe
                 it is important to keep developing skills after hours and to share the results with a community.
-                I post the updates and projects on my <a href="https://github.com/surendravj" rel="noopener noreferrer" target="_blank">Github </a> 
+                I post the updates and projects on my <a href="https://github.com/surendravj" rel="noopener noreferrer" target="_blank">Github </a>
                   account and we can also follow me up on <a href="https://www.instagram.com/surendra_vadaparthy/" rel="noopener noreferrer" target="_blank">Instagram</a>.
               </p>
             </div>
@@ -111,7 +116,7 @@ function App() {
   );
 }
 
-export default App;
+export default withRouter(App);
 
 
 

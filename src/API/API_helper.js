@@ -1,4 +1,4 @@
-const API = "https://glacial-spire-23369.herokuapp.com/api"
+const API = "https://surendrabackend.herokuapp.com/api/"
 
 export const saveCommentToDb = (body) => {
     return fetch(`${API}/createcomment`, {
@@ -21,6 +21,13 @@ export const getAllComments = () => {
             "Content-Type": 'application/json'
         }
     }).then(response => {
+        return response.json();
+    }).catch(e => console.log(e));
+}
+
+
+export const getGithubRepos = () => {
+    return fetch("https://api.github.com/users/surendravj/repos", { method: "GET" }).then(response => {
         return response.json();
     }).catch(e => console.log(e));
 }

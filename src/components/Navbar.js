@@ -10,7 +10,7 @@ const Navbar = ({ history }) => {
         return ({ color: "#ffffff" })
     }
 
-    
+
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light fixed-top nav-color">
@@ -22,6 +22,11 @@ const Navbar = ({ history }) => {
                         <li className="nav-item ">
                             <Link to="/" style={changeColor(history, "/")} className="nav-link">
                                 Home
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/myrepos" style={changeColor(history, "/myrepos")} className="nav-link">
+                                My-Repositories
                             </Link>
                         </li>
                         <li className="nav-item">
