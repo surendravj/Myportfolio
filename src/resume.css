@@ -1,45 +1,105 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
 
-.A{
+.A {
     width: 100%;
 }
 
-.B{
-    max-width:1400px;
+.B {
+    max-width: 1400px;
 }
 
-.C{
-    width:90%;
+.C {
+    width: 90%;
 }
 
-.D{
-    width:80%;
-}
-.E{
-    width:75%;
-}
-.F{
-    width:80%;
-}
-.G{
-    height:24px;width:80%
-}
-.H{
-    height:24px;width:55%
+.D {
+    width: 80%;
 }
 
-.K{
-    height:24px;width:50%
+.E {
+    width: 75%;
 }
 
-.o{
-    width:100%;
+.F {
+    width: 80%;
 }
 
-.resumeHead{
+.G {
+    height: 24px;
+    width: 80%
+}
+
+.H {
+    height: 24px;
+    width: 55%
+}
+
+.K {
+    height: 24px;
+    width: 50%
+}
+
+.o {
+    width: 100%;
+}
+
+.resumeHead {
     text-decoration: underline;
 }
 
-.badge-deco{
+.badge-deco {
     background-color: #071a52;
+}
+
+.github-div {
+    background-color: #cabbe9;
+}
+
+.github-name {
+    color: #10316b;
+    overflow-wrap: break-word;
+}
+
+.github-row {
+    display: flex;
+    justify-content: center;
+}
+
+.github-badge {
+    background-color: #10316b;
+    color: white;
+    padding: 5px 5px;
+}
+
+.github-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.click-copy {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #482ff7;
+    outline: none;
+}
+
+@media (min-width:100px) and (max-width:575) {
+    .github-row {
+        padding: 3px 3px;
+    }
+}
+
+.click-copy:focus {
+    border: none;
+    outline: none;
 }

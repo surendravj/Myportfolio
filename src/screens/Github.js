@@ -25,18 +25,18 @@ const Github = () => {
 
     const badge = () => {
         return (
-            <div className="mt-5 text-center"> 
+            <div className="mt-5 text-center mb-3">
                 <button type="button" className="btn btn-primary mt-5 badge-deco">
-                   My Github Repositories <span className="badge badge-light ml-2">{repos.length}</span>
+                    My Github Repositories <span className="badge badge-light ml-2">{repos.length}</span>
                 </button>
             </div>
         )
     }
 
     return (
-        <div className="container">
+        <div className="container-fluid">
             <Navbar />
-            <div className="mt-5">
+            <div className="mt-5 ">
                 {badge()}
                 <Table data={repos} />
             </div>
