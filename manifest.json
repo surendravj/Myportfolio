@@ -1,9 +1,0 @@
-{
-    "short_name": "Portfolio App",
-    "name": "Surendra web portfolio ",
-    "icons": [],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#581b98",
-    "background_color": "#fffff"
-}
