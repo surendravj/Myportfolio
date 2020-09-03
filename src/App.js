@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Link, withRouter } from "react-router-dom";
-import ReactTypingEffect from "react-typing-effect";
 import bannerImage from "./assets/images/banner-image.png";
 import bannerImage2 from "./assets/images/about-us.png";
 import Service from "./components/Service";
@@ -12,9 +11,7 @@ import logo from "./assets/images/github-logo.png";
 import "./index.css";
 
 function App() {
-  const ReactTypingEffects = (name) => {
-    return <ReactTypingEffect cursor="." speed="300" text={name} />;
-  };
+  
 
   const banner = () => {
     return (
@@ -25,26 +22,21 @@ function App() {
               Hey<span className="simple_line">________________@</span>
             </h3>
             <h1 className="title-text text-uppercase name">
-              I am{" "}
-              <span className="myname">{ReactTypingEffects("Surendra")}</span>
+              I am <span className="myname">Surendra</span>
             </h1>
             <h4 className="title-text text-uppercase freelancer mt-2">
               Freelance Developer
             </h4>
             <div className="mt-4">
-              <button type="button" className="mr-2 text-uppercase pressDown ">
-                hire me
-              </button>
-              <Link
-                to="/myrepos"
+              <a
                 type="button"
-                className="btn btn-dark pressDown text-center text-uppercase"
+                href="https://www.linkedin.com/in/surendra-vadaparthy-07b145193"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="mr-2 btn btn-rounded waves-effect contact-me"
               >
-                <span className="mr-1 text-center">
-                  <img className="mr-1" src={logo} alt="avatar"></img>
-                </span>
-                Github Repo
-              </Link>
+                Contact me
+              </a>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-4">
