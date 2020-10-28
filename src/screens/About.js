@@ -106,49 +106,49 @@ const About = () => {
               </h2>
               <div className="w3-container">
                 <h5 className="w3-opacity">
-                  <b>Front End Developer / SB interior designs</b>
+                  <b>Web Developer / SB interior designs</b>
                 </h5>
                 <h6 className="w3-text-teal">
-                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>Jan
-                  2015 -{" "}
+                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>
+                  04/09/2019 - 11/09/2019
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
-                  I started working as frontend developer in these organization
-                  as a freelancer developer and build frontend part using
-                  ReactsJs and other frotend technologies{" "}
+                  I started working asweb developer in these organization as a
+                  freelancer developer and build frontend part using ReactsJs
+                  and other frotend technologies{" "}
                 </p>
                 <hr />
               </div>
               <div className="w3-container">
                 <h5 className="w3-opacity">
-                  <b>Backend Developer / Veggies Basket</b>
+                  <b>Mobile App Developer / Veggies Basket</b>
                 </h5>
                 <h6 className="w3-text-teal">
-                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>Mar
-                  2012 - Dec 2014 -{" "}
+                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>
+                  15/01/2020 - 01/01/2020
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
-                  Developing the rest api end points using nodejs framework to
-                  develop the backend architecture for the veggies basket web
-                  app{" "}
+                  Developing the E-commerce app platform for startup company
+                  called Veggies Basket using technolgies like Flutter SDK and
+                  dart{" "}
                 </p>
                 <hr />
               </div>
               <div className="w3-container">
                 <h5 className="w3-opacity">
-                  <b>Intern / Wipro</b>
+                  <b>Intern / Sauda Tech</b>
                 </h5>
                 <h6 className="w3-text-teal">
-                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>Jun
-                  2010 - Mar 2012 -{" "}
+                  <i className="fa fa-calendar fa-fw w3-margin-right"></i>
+                  07/05/2020 - 08/09/2020{" "}
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
-                  I started working as a intern in wipro oraganization in the
-                  role of junior frontend developer where i get the
-                  responsibilties to develop the UI interface{" "}
+                  Joined as a fullstack web developer intern in a Sauda Tech.
+                  Build a trading a platform for agri-commodities using
+                  technlogies like Nodejs,Reactjs,MySql,AWS{" "}
                 </p>
                 <br />
               </div>
