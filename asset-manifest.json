@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Myportfolio/static/css/main.463ff3c3.chunk.css",
-    "main.js": "/Myportfolio/static/js/main.d70fe5a0.chunk.js",
-    "main.js.map": "/Myportfolio/static/js/main.d70fe5a0.chunk.js.map",
-    "runtime-main.js": "/Myportfolio/static/js/runtime-main.d7842963.js",
-    "runtime-main.js.map": "/Myportfolio/static/js/runtime-main.d7842963.js.map",
-    "static/js/2.d5fedf0f.chunk.js": "/Myportfolio/static/js/2.d5fedf0f.chunk.js",
-    "static/js/2.d5fedf0f.chunk.js.map": "/Myportfolio/static/js/2.d5fedf0f.chunk.js.map",
-    "index.html": "/Myportfolio/index.html",
-    "precache-manifest.756faf363e02dec448a126398feff15e.js": "/Myportfolio/precache-manifest.756faf363e02dec448a126398feff15e.js",
-    "service-worker.js": "/Myportfolio/service-worker.js",
-    "static/css/main.463ff3c3.chunk.css.map": "/Myportfolio/static/css/main.463ff3c3.chunk.css.map",
-    "static/js/2.d5fedf0f.chunk.js.LICENSE.txt": "/Myportfolio/static/js/2.d5fedf0f.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Myportfolio/static/media/Roboto-MediumItalic.cf23e1bb.ttf",
-    "static/media/about-us.png": "/Myportfolio/static/media/about-us.52bec8f6.png",
-    "static/media/avataaars.png": "/Myportfolio/static/media/avataaars.745ac358.png",
-    "static/media/banner-image.png": "/Myportfolio/static/media/banner-image.50953027.png"
+    "main.css": "/Myprtfolio/static/css/main.88cfb576.chunk.css",
+    "main.js": "/Myprtfolio/static/js/main.05b835e7.chunk.js",
+    "main.js.map": "/Myprtfolio/static/js/main.05b835e7.chunk.js.map",
+    "runtime-main.js": "/Myprtfolio/static/js/runtime-main.40e7cc53.js",
+    "runtime-main.js.map": "/Myprtfolio/static/js/runtime-main.40e7cc53.js.map",
+    "static/js/2.c1de5981.chunk.js": "/Myprtfolio/static/js/2.c1de5981.chunk.js",
+    "static/js/2.c1de5981.chunk.js.map": "/Myprtfolio/static/js/2.c1de5981.chunk.js.map",
+    "index.html": "/Myprtfolio/index.html",
+    "precache-manifest.7d55f29b0c1e2855673e449cfaf1f496.js": "/Myprtfolio/precache-manifest.7d55f29b0c1e2855673e449cfaf1f496.js",
+    "service-worker.js": "/Myprtfolio/service-worker.js",
+    "static/css/main.88cfb576.chunk.css.map": "/Myprtfolio/static/css/main.88cfb576.chunk.css.map",
+    "static/js/2.c1de5981.chunk.js.LICENSE.txt": "/Myprtfolio/static/js/2.c1de5981.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Myprtfolio/static/media/Roboto-MediumItalic.cf23e1bb.ttf",
+    "static/media/about-us.png": "/Myprtfolio/static/media/about-us.52bec8f6.png",
+    "static/media/avataaars.png": "/Myprtfolio/static/media/avataaars.745ac358.png",
+    "static/media/banner-image.png": "/Myprtfolio/static/media/banner-image.50953027.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7842963.js",
-    "static/js/2.d5fedf0f.chunk.js",
-    "static/css/main.463ff3c3.chunk.css",
-    "static/js/main.d70fe5a0.chunk.js"
+    "static/js/runtime-main.40e7cc53.js",
+    "static/js/2.c1de5981.chunk.js",
+    "static/css/main.88cfb576.chunk.css",
+    "static/js/main.05b835e7.chunk.js"
   ]
 }
