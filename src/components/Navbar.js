@@ -43,7 +43,7 @@ const Navbar = ({ history }) => {
                 My-Repositories
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link
                 to="/resume"
                 style={changeColor(history, "/resume")}
@@ -51,7 +51,7 @@ const Navbar = ({ history }) => {
               >
                 My-resume
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

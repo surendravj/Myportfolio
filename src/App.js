@@ -9,10 +9,9 @@ import Contact from "./components/Contact";
 import Testimonal from "./components/Testimonal";
 import logo from "./assets/images/github-logo.png";
 import "./index.css";
+import WorksSection from "./components/works_Section";
 
 function App() {
-  
-
   const banner = () => {
     return (
       <div className="container mt-5 py-5 text-center" data-aos="zoom-in">
@@ -75,7 +74,7 @@ function App() {
                 Efficient Engineer with an experience in creating mobile & web
                 applications using Javascript & Flutter SDK. I like learning
                 about other platforms such as backend and Android as well
-                because it gives a wider view on problems that we solve for the
+                because it gives a wider view on problems that I solve for the
                 customers. I focus on a high quality code ensured by following
                 TDD approach. I really enjoy working in an oraganized
                 environment. I speak Telugu,English,basic Hindi as well As a
@@ -153,6 +152,8 @@ function App() {
         {secondBanner()}
         <hr></hr>
         <Skill />
+        <hr></hr>
+        <WorksSection />
         <hr></hr>
         <Service />
         <hr></hr>
