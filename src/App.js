@@ -109,14 +109,14 @@ function App() {
                 .
               </p>
             </div>
-            <button
+            {/* <button
               type="button"
               className="btn btn-outline-dark btn-cv text-uppercase mt-3 mb-2"
             >
               <Link to="/resume" className="btn-cv">
                 Look my cv
               </Link>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
