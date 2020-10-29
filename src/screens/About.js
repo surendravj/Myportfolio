@@ -110,13 +110,13 @@ const About = () => {
                 </h5>
                 <h6 className="w3-text-teal">
                   <i className="fa fa-calendar fa-fw w3-margin-right"></i>
-                  04/09/2019 - 11/09/2019
+                  04/09/2019 - 12/10/2019 {" "}
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
                   I started working asweb developer in these organization as a
                   freelancer developer and build frontend part using ReactsJs
-                  and other frotend technologies{" "}
+                  and other frotend technologies {" "}
                 </p>
                 <hr />
               </div>
@@ -126,7 +126,7 @@ const About = () => {
                 </h5>
                 <h6 className="w3-text-teal">
                   <i className="fa fa-calendar fa-fw w3-margin-right"></i>
-                  15/01/2020 - 01/01/2020
+                  15/01/2020 - 17/02/2020 {" "}
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
@@ -142,7 +142,7 @@ const About = () => {
                 </h5>
                 <h6 className="w3-text-teal">
                   <i className="fa fa-calendar fa-fw w3-margin-right"></i>
-                  07/05/2020 - 08/09/2020{" "}
+                  07/05/2020 - 08/09/2020 {" "}
                   <span className="w3-tag w3-teal w3-round">Completed</span>
                 </h6>
                 <p>
