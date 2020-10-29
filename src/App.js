@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Testimonal from "./components/Testimonal";
 import logo from "./assets/images/github-logo.png";
 import "./index.css";
-import WorksSection from "./components/works_Section";
+// import WorksSection from "./components/works_Section";
 
 function App() {
   const banner = () => {
@@ -152,8 +152,8 @@ function App() {
         {secondBanner()}
         <hr></hr>
         <Skill />
-        <hr></hr>
-        <WorksSection />
+        {/* <hr></hr>
+        <WorksSection /> */}
         <hr></hr>
         <Service />
         <hr></hr>
