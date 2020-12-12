@@ -10,6 +10,8 @@ import Testimonal from "./components/Testimonal";
 import logo from "./assets/images/github-logo.png";
 import "./index.css";
 import WorksSection from "./components/works_Section";
+import { Button} from 'ui-neumorphism';
+import 'ui-neumorphism/dist/index.css'
 
 function App() {
   const banner = () => {
@@ -32,10 +34,10 @@ function App() {
                 href="https://www.linkedin.com/in/surendra-vadaparthy-07b145193"
                 rel="noopener noreferrer"
                 target="_blank"
-                className="mr-2 btn btn-rounded waves-effect contact-me"
               >
-                Contact me
+                <Button rounded color="white" depressed size="medium" bgColor="#071a52">Contact Me</Button>
               </a>
+              
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-4">
