@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 .A {
@@ -35,17 +35,17 @@ h6 {
 
 .G {
     height: 24px;
-    width: 80%
+    width: 80%;
 }
 
 .H {
     height: 24px;
-    width: 55%
+    width: 55%;
 }
 
 .K {
     height: 24px;
-    width: 50%
+    width: 50%;
 }
 
 .o {
@@ -93,7 +93,7 @@ h6 {
     outline: none;
 }
 
-@media (min-width:100px) and (max-width:575) {
+@media (min-width: 100px) and (max-width: 575) {
     .github-row {
         padding: 3px 3px;
     }
@@ -102,4 +102,17 @@ h6 {
 .click-copy:focus {
     border: none;
     outline: none;
+}
+
+.chatbox {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.chatbot-btn {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #071a52;
 }

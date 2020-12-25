@@ -11,7 +11,8 @@ import logo from "./assets/images/github-logo.png";
 import "./index.css";
 import WorksSection from "./components/works_Section";
 import { Button} from 'ui-neumorphism';
-import 'ui-neumorphism/dist/index.css'
+import 'ui-neumorphism/dist/index.css';
+import Chatbot from './components/chatbot';
 
 function App() {
   const banner = () => {
@@ -162,6 +163,8 @@ function App() {
         <Testimonal />
         <hr></hr>
         <Contact />
+        <hr/>
+        <Chatbot/>
       </div>
       {footer()}
     </div>
