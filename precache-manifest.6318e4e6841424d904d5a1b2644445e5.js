@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33b743ce741315a24a028f17c070befc",
+    "revision": "4d94616a892d31d711139dff5f816326",
     "url": "/Myportfolio/index.html"
   },
   {
-    "revision": "4eb85efb92a02e04507f",
-    "url": "/Myportfolio/static/css/2.2774b781.chunk.css"
+    "revision": "ea0d86505b5fefd1fd69",
+    "url": "/Myportfolio/static/css/2.72dd2f30.chunk.css"
   },
   {
-    "revision": "ca5cc025d63d5cd1ec56",
-    "url": "/Myportfolio/static/css/main.463ff3c3.chunk.css"
+    "revision": "0e83e92c67f046438c65",
+    "url": "/Myportfolio/static/css/main.3d8834e1.chunk.css"
   },
   {
-    "revision": "4eb85efb92a02e04507f",
-    "url": "/Myportfolio/static/js/2.00a3943c.chunk.js"
+    "revision": "ea0d86505b5fefd1fd69",
+    "url": "/Myportfolio/static/js/2.cf9d2d2b.chunk.js"
   },
   {
     "revision": "216e537bacc64f9dbaabd26649a9ab95",
-    "url": "/Myportfolio/static/js/2.00a3943c.chunk.js.LICENSE.txt"
+    "url": "/Myportfolio/static/js/2.cf9d2d2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ca5cc025d63d5cd1ec56",
-    "url": "/Myportfolio/static/js/main.c27ce4d3.chunk.js"
+    "revision": "0e83e92c67f046438c65",
+    "url": "/Myportfolio/static/js/main.96d8db4c.chunk.js"
   },
   {
     "revision": "d86dd74e5d4930855c66",
@@ -56,19 +56,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Myportfolio/static/media/about-us.52bec8f6.png"
   },
   {
-    "revision": "11b6e57ac89cfc219c8f791a54a5ef4b",
-    "url": "/Myportfolio/static/media/app.11b6e57a.png"
-  },
-  {
-    "revision": "cde6ff6eb4b729398a0ce2a16c10a630",
-    "url": "/Myportfolio/static/media/app2.cde6ff6e.jpeg"
-  },
-  {
     "revision": "745ac3587624efa64467661a61f2e2ba",
     "url": "/Myportfolio/static/media/avataaars.745ac358.png"
   },
   {
     "revision": "50953027678f2e493ea34b63733f26cd",
     "url": "/Myportfolio/static/media/banner-image.50953027.png"
+  },
+  {
+    "revision": "f0466fb22e9acedb553d2c14fc08a7b8",
+    "url": "/Myportfolio/static/media/robot.f0466fb2.svg"
   }
 ]);
