@@ -106,11 +106,15 @@ h6 {
 
 .chatbox {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .chatbot-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
     border-radius: 50%;
     width: 70px;
     height: 70px;

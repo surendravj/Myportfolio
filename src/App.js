@@ -36,7 +36,7 @@ function App() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button rounded color="white" depressed size="medium" bgColor="#071a52">Contact Me</Button>
+                <Button rounded color="white" style={{"border":"none"}} size="medium" bgColor="#071a52">Contact Me</Button>
               </a>
               
             </div>
