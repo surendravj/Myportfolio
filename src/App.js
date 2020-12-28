@@ -10,9 +10,11 @@ import Testimonal from "./components/Testimonal";
 import logo from "./assets/images/github-logo.png";
 import "./index.css";
 import WorksSection from "./components/works_Section";
-import { Button} from 'ui-neumorphism';
-import 'ui-neumorphism/dist/index.css';
-import Chatbot from './components/chatbot';
+import { Button } from "ui-neumorphism";
+import "ui-neumorphism/dist/index.css";
+import Chatbot from "./components/chatbot";
+import GithubSection from './components/github_section';
+
 
 function App() {
   const banner = () => {
@@ -36,9 +38,16 @@ function App() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <Button rounded color="white" style={{"border":"none"}} size="medium" bgColor="#071a52">Contact Me</Button>
+                <Button
+                  rounded
+                  color="white"
+                  style={{ border: "none" }}
+                  size="medium"
+                  bgColor="#071a52"
+                >
+                  Contact Me
+                </Button>
               </a>
-              
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12  col-xs-12 mb-1 mt-4">
@@ -155,6 +164,8 @@ function App() {
         {secondBanner()}
         <hr></hr>
         <Skill />
+        <hr />
+        <GithubSection />
         <hr></hr>
         <WorksSection />
         <hr></hr>
@@ -163,8 +174,8 @@ function App() {
         <Testimonal />
         <hr></hr>
         <Contact />
-        <hr/>
-        <Chatbot/>
+        {/* <hr />
+        <Chatbot /> */}
       </div>
       {footer()}
     </div>

@@ -3,11 +3,11 @@ import SB from "../assets/images/SB.png";
 import Sauda from "../assets/images/Sauda.png";
 import Veggies from "../assets/images/Veggies.png";
 import Corona from "../assets/images/Corona.png";
-import "../index.css";
+
 
 const WorksSection = () => {
   return (
-    <div className="container px-5 py-3 text-center">
+    <div className="container px-5 py-5 text-center">
       <h2 className="font-weight-bold">My Works</h2>
       <div className="row px-1 mb-2">
         <div className="col-md-6 mb-2">

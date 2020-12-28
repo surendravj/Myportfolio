@@ -10,7 +10,7 @@ const Table = ({ data }) => {
     return data.map((repo, i) => {
       return (
         <div
-          className=" col-lg-3 col-md-3 col-sm-3 col-xs-12 github-div mr-1 mb-1"
+          className=" col-lg-3 card rounded shadow-lg col-md-3 col-sm-3 col-xs-12 github-div mr-1 mb-1"
           key={i}
         >
           <div className="github-name text-center">
