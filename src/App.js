@@ -12,8 +12,8 @@ import "./index.css";
 import WorksSection from "./components/works_Section";
 import { Button } from "ui-neumorphism";
 import "ui-neumorphism/dist/index.css";
-import Chatbot from "./components/chatbot";
 import GithubSection from './components/github_section';
+import Chatbot from './components/chatbot';
 
 
 function App() {
@@ -174,8 +174,7 @@ function App() {
         <Testimonal />
         <hr></hr>
         <Contact />
-        {/* <hr />
-        <Chatbot /> */}
+        <Chatbot />
       </div>
       {footer()}
     </div>

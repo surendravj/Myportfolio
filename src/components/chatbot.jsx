@@ -1,22 +1,52 @@
+import "../resume.css";
 import React, { useState } from "react";
 import ChatBot from "react-simple-chatbot";
-import "../resume.css";
 import robot from "../assets/images/robot.svg";
 import close from "../assets/images/close.svg";
+
 
 const Chatbot = () => {
   const [botOpen, setbotOpen] = useState(false);
   const greetings = () => {
     var myDate = new Date();
     var hrs = myDate.getHours();
-
     var greet;
-
     if (hrs < 12) greet = "Good Morning";
     else if (hrs >= 12 && hrs <= 17) greet = "Good Afternoon";
     else if (hrs >= 17 && hrs <= 24) greet = "Good Evening";
     return greet;
   };
+
+  const button = () => (
+    <div class="btn-group " role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary">
+        <a
+          class="text-white"
+          href="https://www.instagram.com/surendra_vadaparthy/"
+        >
+          Instagram
+        </a>
+      </button>
+      <button type="button" class="btn btn-secondary">
+        <a
+          class="text-white"
+          style={{ textDecoration: "none" }}
+          href="https://www.linkedin.com/in/surendra-vadaparthy-07b145193/"
+        >
+          Linkedin
+        </a>
+      </button>
+      <button type="button" class="btn btn-secondary">
+        <a
+          class="text-white"
+          style={{ textDecoration: "none" }}
+          href="https://github.com/surendravj"
+        >
+          Github
+        </a>
+      </button>
+    </div>
+  );
   const steps = [
     {
       id: "0",
@@ -25,32 +55,27 @@ const Chatbot = () => {
     },
     {
       id: "1",
-      message: "Welcome to my portfolio",
+      message: "Welcome to my portfolio.\nMay I know your name?",
       trigger: "2",
     },
     {
       id: "2",
-      message: "May I know your name ?",
+      user: true,
       trigger: "3",
     },
     {
       id: "3",
-      user: true,
+      message: "Hello {previousValue}, nice to meet you",
       trigger: "4",
     },
     {
-      id: "4",
-      message: "Hello {previousValue}, nice to meet you",
-      trigger: "5",
+      id: 4,
+      message: "Feel free to contact me",
+      trigger: "contact",
     },
     {
-      id: "5",
-      message: "I am currently in beta version",
-      trigger: "6",
-    },
-    {
-      id: "6",
-      message: "Talk with you more in few days Bye",
+      id: "contact",
+      component: button(),
       end: true,
     },
   ];
@@ -58,7 +83,13 @@ const Chatbot = () => {
   return (
     <div>
       <div className="chatbox">
-        {botOpen ? <ChatBot steps={steps} /> : null}
+        {botOpen ? (
+          <ChatBot
+            headerTitle="Surendra Vadaparthy Bot"
+            recognitionEnable={true}
+            steps={steps}
+          />
+        ) : null}
       </div>
 
       <div className="chatbot-btn">
