@@ -80,6 +80,11 @@
         transition-delay: 0.5ms;
     }
     
+    .skill-card:hover {
+        box-shadow: 0 4.5px 3.6px rgba(0, 0, 0, 0.08), 0 12.5px 10px rgba(0, 0, 0, 0.115), 0 30.1px 24.1px rgba(0, 0, 0, 0.15), 0 100px 80px rgba(0, 0, 0, 0.23);
+        transition-delay: 0.5ms;
+    }
+    
     .lead {
         font-family: "RobotoMedium";
     }
@@ -93,10 +98,10 @@
     }
     
     .skill {
-        border: 1px solid #303a52;
-        background-color: #303a52;
+        border: none;
         border-radius: 2rem;
-        color: #fff;
+        box-shadow: 10px;
+        background-color: white;
     }
     
     .skillDiv {
@@ -121,4 +126,10 @@
         font-family: 'Roboto';
         background-color: #1e2a78;
         color: #fff;
+    }
+    
+    .skill-text {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        letter-spacing: 1px;
     }
