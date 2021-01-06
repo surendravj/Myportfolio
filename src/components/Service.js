@@ -12,7 +12,7 @@ const Service = () => {
       <h3 className="service-head">My services & offers</h3>
       <div className="row header py-4 px-2">
         <div className="col-lg-3  col-md-3 col-sm-6 col-xs-4 mb-3">
-          <Card elevation={3} rounded>
+          <Card elevation={1} rounded>
             <div className="card service">
               <div className="card-header">
                 <p className="lead">Web development</p>
@@ -25,7 +25,7 @@ const Service = () => {
         </div>
 
         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-4 mb-3">
-        <Card elevation={3} rounded>
+        <Card elevation={1} rounded>
           <div className="card service-2 ">
             <div className="card-header">
               <p className="lead">App development</p>
@@ -37,7 +37,7 @@ const Service = () => {
           </Card>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-4 mb-3">
-        <Card elevation={3} rounded>
+        <Card elevation={1} rounded>
           <div className="card service">
             <div className="card-header">
               <p className="lead">Plan & design</p>
@@ -49,7 +49,7 @@ const Service = () => {
           </Card>
         </div>
         <div className="col-lg-3 col-md-3 col-sm-6 col-xs-4 mb-3">
-        <Card elevation={3} rounded>
+        <Card elevation={1} rounded>
           <div className="card service-2 ">
             <div className="card-header">
               <p className="lead">Faster integration</p>

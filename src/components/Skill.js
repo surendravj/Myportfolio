@@ -33,7 +33,7 @@ const Skill = () => {
           className="col-lg-2 col-md-2 col-sm-2 col-xs-2 ml-1 mb-3 text-center"
           key={index}
         >
-          <Card className="skill-card text-center bg-white p-2" elevation={3}>
+          <Card className="skill-card text-center bg-white p-2" elevation={1}>
             <img
               width="40"
               height="40"
